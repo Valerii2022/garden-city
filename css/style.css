@@ -68,7 +68,7 @@ body {
 }
 
 .head-container {
-  width: 1350px;
+  width: 1305px;
   margin-left: auto;
   margin-right: auto;
   display: flex;
@@ -118,8 +118,20 @@ body {
 }
 
 .hero-container {
-  width: 1350px;
+  width: 1305px;
   margin-left: auto;
   margin-right: auto;
   display: flex;
 }
+
+.hero-content {}
+
+.site-title {}
+
+.hero-subtitle {}
+
+.logo-link {}
+
+.hero .link {}
+
+.site-logo {}
