@@ -297,3 +297,42 @@ body {
 }
 
 /* -----------------------------------------------------modern */
+
+.modern {}
+
+.modern-thumb {}
+
+.modern-title {
+  margin-bottom: 9px;
+
+  font-size: 44px;
+  line-height: 1.59;
+  letter-spacing: 5.12px;
+  text-transform: uppercase;
+}
+
+.modern-subtitle {
+  margin-bottom: 25px;
+
+  font-weight: 500;
+  font-size: 21px;
+  line-height: 1.57;
+  letter-spacing: 0.21px;
+}
+
+.modern .button {
+  padding-top: 16px;
+  padding-bottom: 19px;
+  padding-left: 40px;
+  padding-right: 40px;
+  background: var(--accent-color);
+  border-radius: 50px;
+
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 1;
+  letter-spacing: 2.4px;
+  text-transform: uppercase;
+
+  color: var(--secondary-text-color);
+}
