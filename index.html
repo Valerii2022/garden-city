@@ -40,7 +40,7 @@
     <!-- hero section -->
     <section class="section hero">
       <div class="hero-container">
-        <img src="./images/hero-min.jpg" alt="Women with flowers" width="783" height="685" />
+        <img class="img-hero" src="./images/hero-min.jpg" alt="Women with flowers" width="783" height="685" />
         <div class="hero-content">
           <h1 class="site-title">A BEAUTIFUL DAY IS IN BLOOM</h1>
           <p class="hero-subtitle">
@@ -52,15 +52,6 @@
               <use href="./images/icons.svg#icon-directory"></use>
             </svg>
           </a>
-          <svg class="leaves-pink" width="261" height="200">
-            <use href="./images/icons.svg#icon-leaves1"></use>
-          </svg>
-          <svg class="leaves-red" width="298" height="216">
-            <use href="./images/icons.svg#icon-leaves2"></use>
-          </svg>
-          <svg class="leaves-blue" width="235" height="231">
-            <use href="./images/icons.svg#icon-leaves3"></use>
-          </svg>
         </div>
       </div>
     </section>
@@ -136,22 +127,82 @@
     </section>
     <!-- modern section-->
     <section class="section modern">
-      <img src="./images/modern.jpg" alt="modern" width="675" height="665">
-      <div class="modern-thumb">
-        <h2 class="modern-title">A modern retreat with small-town charm</h2>
-        <p class="modern-subtitle">Fresh air, local flavors, favorite everything. There's always something new to taste
-          and do at Garden City Center. Come discover a Rhode Island classic.</p>
-        <buttun class="button" type="button">Take A Look</buttun>
+      <div class="modern-wrap">
+        <img src="./images/modern.jpg" alt="modern" width="665" height="675">
+        <div class="modern-thumb">
+          <h2 class="modern-title">A modern retreat with small-town charm</h2>
+          <p class="modern-subtitle">Fresh air, local flavors, favorite everything. There's always something new to
+            taste
+            and do at Garden City Center. Come discover a Rhode Island classic.</p>
+          <buttun class="button" type="button">Take A Look</buttun>
+        </div>
       </div>
-      <svg class="site-logo" width="241" height="252">
-        <use href="./images/icons.svg#icon-leaves4"></use>
-      </svg>
-      <svg class="site-logo" width="333" height="476">
-        <use href="./images/leaves5.svg"></use>
-      </svg>
     </section>
-    <!--  -->
+    <!--line section  -->
+    <section class="section line"></section>
+    <!--around section -->
+    <section class="section around">
+      <h2 class="around-title">Around here lately</h2>
+      <p class="around-descr">We're always up to something good. Follow along and don't miss a minute.</p>
+      <p class="around-subtitle">Follow Us</p>
+      <ul class="around-img-list">
+        <li class="item"><img class="around-img" src="./images/around1-min.jpg" alt="photo" width="327" height="327">
+        </li>
+        <li class="item"><img class="around-img" src="./images/around2-min.jpg" alt="photo" width="327" height="327">
+        </li>
+        <li class="item"><img class="around-img" src="./images/around3-min.jpg" alt="photo" width="327" height="327">
+        </li>
+        <li class="item"><img class="around-img" src="./images/around4-min.jpg" alt="photo" width="327" height="327">
+        </li>
+      </ul>
+    </section>
   </main>
+  <!-- footer -->
+  <footer class="footer">
+    <div class="footer-top">
+      <div class="footer-title-wrap">
+        <h2 class="footer-title">We'll keep you posted.</h2>
+        <p class="footer-subtitle">Get updates, special offers and event info, straight to your inbox.</p>
+      </div>
+      <button class="button" type="button">Newsletter Signup</button>
+    </div>
+    <div class="footer-middle">
+      <svg class="footer-logo" width="98" height="140">
+        <use href="./images/icons.svg#icon-logo-footer"></use>
+      </svg>
+      <ul class="footer-list">
+        <li class="item">
+          <ul class="link-list">
+            <li class="item"><a class="link" href="#">Explore</a></li>
+            <li class="item"><a class="link" href="#">Events</a></li>
+            <li class="item"><a class="link" href="#">Community</a></li>
+            <li class="item"><a class="link" href="#">About</a></li>
+          </ul>
+        </li>
+        <li class="item">
+          <ul class="link-list">
+            <li class="item"><a class="link" href="#">News</a></li>
+            <li class="item"><a class="link" href="#">Careers</a></li>
+            <li class="item"><a class="link" href="#">Leasing</a></li>
+            <li class="item"><a class="link" href="#">Contact</a></li>
+          </ul>
+        </li>
+      </ul>
+      <address class="address">
+        <a href="https://goo.gl/maps/nUYw3sPzap8MW3Cs8">100 Midway Road, Suite 14 <br> Cranston, RI 02920</a>
+        <a href="tel:4019422800">401-942-2800</a>
+      </address>
+    </div>
+    <div class="footer-bottom">
+      <ul class="footer-bottom-list">
+        <li class="item">&copy;2021 WS Development</li>
+        <li class="item"> <a href="#">Privacy</a></li>
+        <li class="item"> <a href="#">Terms of Use</a></li>
+        <li class="item"> <a href="#">Community Rules</a></li>
+        <li class="item"> <a href="#">Made By Ideabar</a></li>
+      </ul>
+    </div>
+  </footer>
 </body>
 
 </html>
