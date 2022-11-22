@@ -96,28 +96,66 @@
             </div>
             <p class="uptitle">Explore</p>
             <h2 class="title">Crate & Barrel</h2>
-            <a href="#" class="link">Learn More</a>
+            <a href="#" class="link">
+              Learn More
+              <!-- <span class="wave-title">Learn More</span> -->
+              <!-- <svg class="wave" width="112" height="3">
+                <use href="./images/icons.svg#icon-wave"></use>
+              </svg> -->
+            </a>
           </li>
           <li class="item">
-            <img
-              class="img"
-              src="./images/galary2-min.jpg"
-              alt="menu description"
-              width="390"
-              height="260"
-            />
+            <div class="img-wrap">
+              <img
+                class="img"
+                src="./images/galary2-min.jpg"
+                alt="menu description"
+                width="390"
+                height="260"
+              />
+              <p class="menu-overlay">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur voluptate
+                laboriosam ullam consequuntur! Laborum nisi voluptas autem earum aspernatur
+                voluptatibus architecto doloribus doloremque assumenda rem illo dolore nostrum,
+                aliquid deleniti enim explicabo. A dolorum assumenda animi fuga esse autem itaque
+                sunt libero consectetur omnis! Porro nulla amet omnis maxime beatae? Lorem ipsum
+                dolor sit amet, consectetur adipisicing elit. Sapiente rem ipsa illum atque ipsum
+                tenetur totam, enim quos assumenda voluptate deleniti velit debitis ullam vel. Lorem
+                ipsum dolor sit amet consectetur adipisicing elit. Eius asperiores recusandae
+                consequuntur eaque tempora quia accusantium dolore, earum libero magnam error
+                facilis sequi nesciunt at et quam, dolor voluptate, inventore illum porro expedita
+                minima. Dignissimos, aliquam qui voluptatibus eligendi nobis maiores quos ea
+                expedita deserunt mollitia inventore, sunt cupiditate vitae.
+              </p>
+            </div>
             <p class="uptitle">News & Press</p>
             <h2 class="title">Dine safely at Garden City Center</h2>
             <a href="#" class="link">Learn More</a>
           </li>
           <li class="item">
-            <img
-              class="img"
-              src="./images/galary3-min.jpg"
-              alt="menu description"
-              width="390"
-              height="260"
-            />
+            <div class="img-wrap">
+              <img
+                class="img"
+                src="./images/galary3-min.jpg"
+                alt="menu description"
+                width="390"
+                height="260"
+              />
+              <p class="menu-overlay">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur voluptate
+                laboriosam ullam consequuntur! Laborum nisi voluptas autem earum aspernatur
+                voluptatibus architecto doloribus doloremque assumenda rem illo dolore nostrum,
+                aliquid deleniti enim explicabo. A dolorum assumenda animi fuga esse autem itaque
+                sunt libero consectetur omnis! Porro nulla amet omnis maxime beatae? Lorem ipsum
+                dolor sit amet, consectetur adipisicing elit. Sapiente rem ipsa illum atque ipsum
+                tenetur totam, enim quos assumenda voluptate deleniti velit debitis ullam vel. Lorem
+                ipsum dolor sit amet consectetur adipisicing elit. Eius asperiores recusandae
+                consequuntur eaque tempora quia accusantium dolore, earum libero magnam error
+                facilis sequi nesciunt at et quam, dolor voluptate, inventore illum porro expedita
+                minima. Dignissimos, aliquam qui voluptatibus eligendi nobis maiores quos ea
+                expedita deserunt mollitia inventore, sunt cupiditate vitae.
+              </p>
+            </div>
             <p class="uptitle">Feature</p>
             <h2 class="title">Our History</h2>
             <a href="#" class="link">Learn More</a>
@@ -278,12 +316,14 @@
             Get updates, special offers and event info, straight to your inbox.
           </p>
         </div>
-        <button class="button" type="button">Newsletter Signup</button>
+        <button class="button" type="button" data-modal-open2>Newsletter Signup</button>
       </div>
       <div class="footer-middle">
-        <svg class="footer-logo" width="98" height="140">
-          <use href="./images/icons.svg#icon-logo-footer"></use>
-        </svg>
+        <a class="footer-logo-wrap" href="./index.html">
+          <svg class="footer-logo" width="98" height="140">
+            <use href="./images/icons.svg#icon-logo-footer"></use>
+          </svg>
+        </a>
         <ul class="footer-list">
           <li class="item">
             <ul class="link-list">
@@ -303,20 +343,84 @@
           </li>
         </ul>
         <address class="address">
-          <a href="https://goo.gl/maps/nUYw3sPzap8MW3Cs8"
+          <a
+            class="link"
+            href="https://goo.gl/maps/nUYw3sPzap8MW3Cs8"
+            target="_blank"
+            rel="noopener noreferrer"
             >100 Midway Road, Suite 14 <br />
             Cranston, RI 02920</a
           >
-          <a href="tel:4019422800">401-942-2800</a>
+          <a class="link" href="tel:4019422800">401-942-2800</a>
         </address>
       </div>
       <div class="footer-bottom">
         <ul class="footer-bottom-list">
           <li class="item">&copy;2021 WS Development</li>
-          <li class="item"><a href="#">Privacy</a></li>
-          <li class="item"><a href="#">Terms of Use</a></li>
-          <li class="item"><a href="#">Community Rules</a></li>
-          <li class="item"><a href="#">Made By Ideabar</a></li>
+          <li class="item">
+            <a class="link" href="#">Privacy</a>
+            <ul class="sub-item">
+              <li class="item-dropdown">
+                <a class="link" href="#">Lorem1</a>
+                <ul class="bottom-item">
+                  <li class="items"><a class="link" href="#">top</a></li>
+                  <li class="items"><a class="link" href="#">middle</a></li>
+                  <li class="items"><a class="link" href="#">bottom</a></li>
+                </ul>
+              </li>
+              <li class="item-dropdown">
+                <a class="link" href="#">Lorem2</a>
+                <ul class="bottom-item">
+                  <li class="items"><a class="link" href="#">top111</a></li>
+                  <li class="items"><a class="link" href="#">middle222</a></li>
+                  <li class="items"><a class="link" href="#">bottom333</a></li>
+                </ul>
+              </li>
+              <li class="item-dropdown">
+                <a class="link" href="#">Lorem3</a>
+                <ul class="bottom-item">
+                  <li class="items"><a class="link" href="#">top-ua</a></li>
+                  <li class="items"><a class="link" href="#">middle-ua</a></li>
+                  <li class="items"><a class="link" href="#">bottom-ua</a></li>
+                </ul>
+              </li>
+              <li class="item-dropdown">
+                <a class="link" href="#">Lorem4</a>
+                <ul class="bottom-item">
+                  <li><a class="link" href="#">top-ok</a></li>
+                  <li><a class="link" href="#">middle-ok</a></li>
+                  <li><a class="link" href="#">bottom-ok</a></li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+          <li class="item">
+            <a class="link" href="#">Terms of Use</a>
+            <ul class="sub-item">
+              <li><a class="link" href="#">term1</a></li>
+              <li><a class="link" href="#">term2</a></li>
+              <li><a class="link" href="#">next term</a></li>
+              <li><a class="link" href="#">last term</a></li>
+            </ul>
+          </li>
+          <li class="item">
+            <a class="link" href="#">Community Rules</a>
+            <ul class="sub-item">
+              <li><a class="link" href="#">Lorem</a></li>
+              <li><a class="link" href="#">Lorem</a></li>
+              <li><a class="link" href="#">Lorem</a></li>
+              <li><a class="link" href="#">Lorem</a></li>
+            </ul>
+          </li>
+          <li class="item">
+            <a class="link" href="#">Made By Ideabar</a>
+            <ul class="sub-item">
+              <li><a class="link" href="#">Lorem</a></li>
+              <li><a class="link" href="#">Lorem</a></li>
+              <li><a class="link" href="#">Lorem</a></li>
+              <li><a class="link" href="#">Lorem</a></li>
+            </ul>
+          </li>
         </ul>
       </div>
     </footer>
@@ -326,7 +430,25 @@
         <button class="modal-btn" data-modal-close>x</button>
       </div>
     </div>
+    <!-- backdrop2 -->
+    <div class="backdrop is-hidden" data-modal2>
+      <div class="modal">
+        <button class="modal-btn" data-modal-close2>x</button>
+        <p class="modal-text">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis, doloribus repellat. Ullam
+          quam esse natus consequatur velit. Numquam saepe ducimus adipisci unde quos facilis
+          excepturi, culpa tempora tenetur incidunt nostrum aperiam minus voluptatibus. Quaerat
+          quasi sunt inventore molestiae natus rerum. Voluptatem vel quo alias repellat amet commodi
+          nobis labore perferendis voluptatibus! Dolores placeat autem natus dolorum eaque, a
+          provident veniam soluta adipisci quisquam necessitatibus culpa ipsam debitis minima
+          voluptate nisi praesentium tempora? Corporis non, ipsum quidem, dolore vitae veniam
+          tempore optio, assumenda similique eos mollitia voluptatem. Dolores sint vero repellendus
+          vel nisi praesentium ipsum, laudantium at iste odit voluptatum fugit!
+        </p>
+      </div>
+    </div>
     <!-- modal script  -->
     <script src="./js/modal.js"></script>
+    <script src="./js/modal-footer.js"></script>
   </body>
 </html>
